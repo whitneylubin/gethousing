@@ -48,14 +48,14 @@ PreCommit:
     required_executable: 'npm'
     command: ['npm', 'run', 'coffeelint']
 
-  TrailingWhitespace:
-    enabled: true
-    description: 'Checking for trailing whitespace'
-    exclude:
-      - 'spec/vcr/**/*.yml'
-      - 'app/assets/**/*.svg'
-      - 'public/images/**/*.svg'
-      - 'lib/assets/bower_components/**/*'
+  # TrailingWhitespace:
+  #   enabled: true
+  #   description: 'Checking for trailing whitespace'
+  #   exclude:
+  #     - 'spec/vcr/**/*.yml'
+  #     - 'app/assets/**/*.svg'
+  #     - 'public/images/**/*.svg'
+  #     - 'lib/assets/bower_components/**/*'
 
   CustomScript:
     enabled: true
