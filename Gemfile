@@ -9,6 +9,7 @@ end
 
 gem 'rails', '~> 5.0.7'
 
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Slim templates generator for Rails 3 and 4
